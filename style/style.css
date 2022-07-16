@@ -1,0 +1,32 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:400px;
+    height: 80vh;
+    margin: 100px auto;
+    background-color: aqua;
+    border-radius: 10px;
+}
+button{
+    height:80px;
+    width: 80px;
+}
+table{
+    width:350px;
+    margin:0px auto 10px auto;
+    border-radius: 80px;
+}
+#display{
+    background-color: aliceblue;
+    width:90%;
+    margin:20px auto;
+    height:400px;
+    border-radius: 10px;
+    text-align: end;
+    padding: 20px;
+    overflow-x: hidden;
+    align-items:center;
+    font-size:50px;
+}
+
