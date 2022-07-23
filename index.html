@@ -19,8 +19,8 @@
     <table>
         <tr>
             <td ><button class="btn btn-danger" onclick="numberSelected('C')"> C</button></td>
-            <td><button class="btn btn-dark" onclick="numberSelected('√')">√</button>  </td>
-            <td><button class="btn btn-dark" onclick="numberSelected('%')">%</button>  </td>
+            <td><button class="btn btn-dark" onclick="calculateSQRT()">√</button>  </td>
+            <td><button class="btn btn-dark" onclick="calculatePercent()">%</button>  </td>
             <td> <button class="btn btn-dark"  onclick="numberSelected('/')">/</button>  </td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@
         <tr>
             <td><button class="btn btn-dark" onclick="numberSelected(0)">0</button></td>
             <td><button class="btn btn-dark">.</button></td>
-            <td colspan="2"><button class="btn btn-dark" style="width:98%">=</button></td>
+            <td colspan="2"><button class="btn btn-dark" style="width:98%" onclick="calculate()">=</button></td>
         </tr>
     </table>
  </div>
